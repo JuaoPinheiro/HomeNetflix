@@ -104,6 +104,26 @@ img {
   cursor: pointer;
 }
 
+.main p {
+  font-size: 19px;
+  padding-top: 30px;
+}
+
+.gradient {
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 .section {
   background: black;
   padding: 3rem 0;
