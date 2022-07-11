@@ -6,66 +6,53 @@
   color: white;
 }
 
-#container {
-    background: url("./img/background.jpeg");
-    padding-bottom: 140px;
+body {
+  font-family: sans-serif;
+  color: white;
 }
 
-#botao-entrar {
-    background-color: #e50914;
-    font-size: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-right: 18px;
-    padding-left: 18px;
-    border: 0;
-    border-radius: 3px;
-    float: right;
-    cursor: pointer;
+img {
+  display: block;
+  max-width: 100%;
 }
 
-#cabecalho {
-    padding: 28px 56px;
+.container {
+  max-width: 1130px;
+  margin: 0 auto;
 }
 
-h1 {
-    text-align: center;
-    font-size: 64px;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 140px;
+.header {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1790px;
+  top: 28px;
+  left: 56px;
 }
 
-#paragrafo-assista {
-    font-size: 24px;
-    text-align: center;
-    margin-top: 14px;
+.header a {
+  background: #e50914;
+  color: white;
+  align-self: flex-start;
+  margin-left: 7px;
+  margin-right: 17px;
+  text-decoration: none;
+  border-radius: 3px;
 }
 
-#paragrafo-pronto {
-    font-size: 20px;
-    text-align: center;
-    margin-top: 24px;
+.main {
+  padding-top: 4rem;
+  height: 785px;
+  background: url(./img/bg.jpg) center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
 }
-
-input {
-    width: 500px;
-    padding-left: 10px;
-}
-
-#botao-email {
-    width: 250px;
-    background-color: #e50914;
-    border: 0;
-    font-size: 30px;
-    cursor: pointer;
-}
-
-#botao-email:hover {
-    opacity: 0.6;
-}
-
 .section {
   background: black;
   padding: 3rem 0;
