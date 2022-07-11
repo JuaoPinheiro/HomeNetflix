@@ -1,9 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-body {
+  box-sizing:  border-box;
   font-family: sans-serif;
   color: white;
 }
@@ -13,21 +11,6 @@ img {
   max-width: 100%;
 }
 
-.container {
-  max-width: 1130px;
-  margin: 0 auto;
-}
-
-.header {
-  position: absolute;
-  z-index: 100;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  max-width: 1790px;
-  top: 28px;
-  left: 56px;
-}
 
 #enter {
     background-color: #e50914;
