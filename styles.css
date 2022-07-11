@@ -20,19 +20,22 @@ img {
 
 .header {
   position: absolute;
-  height: 57px;
-  left: 2.92%;
-  right: 2.92%;
-  top: 20px;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1336px;
+  top: 28px;
+  left: 56px;
 }
 
 .header a {
-  position: absolute;
-  height: 34px;
-  left: 0%;
-  right: 0%;
-  top: 0px;
-  background: #E50914;
+  display: inline-block;
+  background: #e50914;
+  color: white;
+  align-self: flex-start;
+  padding: 8px 18px;
+  text-decoration: none;
   border-radius: 3px;
 }
 
