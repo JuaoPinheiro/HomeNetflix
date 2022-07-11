@@ -19,22 +19,20 @@ img {
 }
 
 .header {
-  position: absolute;
   z-index: 100;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  max-width: 1336px;
-  top: 28px;
-  left: 56px;
+  max-width: 100%;
+  margintop: 28px;
+  margin-left: 56px;
 }
 
 .header a {
-  display: inline-block;
   background: #e50914;
   color: white;
   align-self: flex-start;
-  padding: 8px 18px;
+  padding: 7px 17px;
   text-decoration: none;
   border-radius: 3px;
 }
