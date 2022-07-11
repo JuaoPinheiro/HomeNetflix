@@ -19,24 +19,20 @@ img {
 }
 
 .header {
-  position: absolute;
-  z-index: 100;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  max-width: 1790px;
-  top: 28px;
-  left: 56px;
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row nowrap;
+    height: auto;
+    justify-content: flex-start;
+    padding-top: 0.5rem;
 }
 
 .header a {
-  display: inline-block;
-  background: #e50914;
-  color: white;
-  align-self: flex-start;
-  padding: 7px 17px;
-  text-decoration: none;
-  border-radius: 3px;
+    background-color: #e50914;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 17px;
 }
 
 .main {
