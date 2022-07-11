@@ -7,7 +7,7 @@
 }
 
 .main{
-    bakcground: url(./img/bg.jpg);
+    bakcground: url("./img/bg.jpg");
     padding-bottom: 140px; 
 }
 
