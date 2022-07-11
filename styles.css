@@ -57,6 +57,53 @@ img {
   justify-items: center;
 }
 
+.main h1 {
+  font-size: 61px;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.main span {
+  font-size: 26px;
+  margin-top: 10px;
+}
+
+.form-cta {
+  display: grid;
+  grid-template-columns: 490px 195px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.form-cta input {
+  padding: 23px 10px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.form-cta button {
+  background: #e50914;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 30px;
+  /* text-transform: uppercase;*/
+}
+
+.form-cta button::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 20px;
+  background: url(./img/seta.svg);
+  margin-left: 20px;
+}
+
+.form-cta button:hover {
+  background: #f40612;
+  cursor: pointer;
+}
+
 .section {
   background: black;
   padding: 3rem 0;
