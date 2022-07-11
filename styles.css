@@ -6,11 +6,10 @@
   color: white;
 }
 
-img {
-  display: block;
-  max-width: 100%;
+.main{
+    bakcground: url(./img/bg.jpg);
+    padding-bottom: 140px; 
 }
-
 
 #enter {
     background-color: #e50914;
@@ -26,16 +25,8 @@ img {
     color: white;
 }
 
-.main {
-  padding-top: 4rem;
-  height: 785px;
-  background: url(./img/bg.jpg) center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-  box-sizing: border-box;
+#cabecalho{
+   padding: 28px 56px;
 }
 
 .main-child {
