@@ -30,7 +30,6 @@ img {
 }
 
 .header a {
-  display: inline-block;
   background: #e50914;
   color: white;
   align-self: flex-start;
